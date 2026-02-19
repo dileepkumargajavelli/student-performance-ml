@@ -1,12 +1,26 @@
-Student Performance Prediction using Machine Learning
+# Student Performance Prediction using Machine Learning
 
 This project predicts student overall scores using Random Forest Regression.
 
-Steps:
+## 📌 Problem Statement
+Predict student academic performance based on study habits and subject scores.
+
+## ⚙️ Steps Performed
+- Downloaded dataset from Kaggle
 - Data preprocessing using Pandas
+- Selected important features
 - Train/Test split
-- Model training with Random Forest
+- Model training using Random Forest
 - Evaluation using MAE and R²
 - Feature importance analysis
 
-Technologies: Python, Pandas, scikit-learn
+## 📊 Results
+MAE ≈ 2.2 marks  
+R² ≈ 0.97  
+
+Study hours had the highest impact on student performance.
+
+## 🛠 Tech Stack
+Python, Pandas, scikit-learn
+
+## 🚀 How to Run
